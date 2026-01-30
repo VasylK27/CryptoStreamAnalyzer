@@ -1,0 +1,25 @@
+{
+    "app_name": "CryptoStreamAnalyzer",
+    "version": "1.0.0",
+    "settings": {
+        "global_threshold_percent": 0.01
+    },
+    "monitored_groups": [
+        {
+            "pairs": ["BTCUSDT", "BTCFDUSD"],
+            "threshold": 0.015
+        },
+        {
+            "pairs": ["ETHUSDT", "ETHFDUSD"],
+            "threshold": 0.02
+        },
+        {
+            "pairs": ["1INCHUSDT", "1INCHPYUSD"],
+            "threshold": 0.1
+        }
+    ],
+    "logging": {
+        "enabled": true,
+        "file_name": "arbitrage_log.csv"
+    }
+}
