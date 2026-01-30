@@ -72,7 +72,7 @@ This project was built as a **practical market analysis tool**, not a simulation
 ## 🛠 Installation
 
 ```bash
-git clone https://github.com/your-username/CryptoStreamAnalyzer.git
+git clone https://github.com/VasylK27/CryptoStreamAnalyzer.git
 cd CryptoStreamAnalyzer
 python -m venv venv
 source venv/bin/activate   # Linux / macOS
