@@ -1,6 +1,6 @@
 # CryptoStreamAnalyzer 🚀
 
-**CryptoStreamAnalyzer** is a real-time cryptocurrency market analysis tool built in **Python**, designed to detect arbitrage anomalies between logically related trading pairs on **Binance**.
+**CryptoStreamAnalyzer** is a real-time cryptocurrency market monitoring tool built in **Python**, designed to detect price anomalies and arbitrage signals between logically related trading pairs on **Binance**.
 
 The project focuses on **low-latency data processing**, **WebSocket streaming**, and **market inefficiency detection**, making it suitable for quantitative research and automated trading systems.
 
@@ -22,6 +22,12 @@ Typical client use cases:
 
 ---
 
+## 👨‍💻 Developer Notes
+
+This project was developed independently as a practical market monitoring tool.
+The architecture is intentionally simple, readable, and easy to extend for custom client requirements.
+
+---
 ## 🧠 Project Overview
 
 Modern crypto markets often exhibit short-lived price inefficiencies between related trading pairs (e.g. the same asset quoted in different stablecoins).
@@ -70,8 +76,8 @@ This project was built as a **practical market analysis tool**, not a simulation
 
 - Arbitrage opportunity research
 - Stablecoin liquidity imbalance analysis
-- Signal generation for trading bots
-- High-frequency spread monitoring
+- Signal generation for research and monitoring
+- Spread monitoring across related markets
 - Crypto market microstructure studies
 
 ---
@@ -98,6 +104,14 @@ pip install -r requirements.txt
 
 ---
 
+## ⏱ Typical Setup Time
+
+- Initial setup: ~5 minutes
+- Configuration: assets and thresholds via JSON
+- Ready for extension with alerts or automation
+
+---
+
 ## ⚙️ Configuration
 All monitored assets and thresholds are defined in config.json.
 
@@ -110,10 +124,10 @@ python main.py
 ```
 
 After launch:
-WebSocket streams start immediately
-GUI updates in real time
-Abnormal spreads are visually highlighted
-All detected anomalies are logged to CSV
+  - WebSocket streams start immediately
+  - GUI updates in real time
+  - Abnormal spreads are visually highlighted
+  - All detected anomalies are logged to CSV
 
 ---
 
@@ -129,18 +143,23 @@ This data can be directly analyzed using Pandas, Excel, or BI tools.
 ---
 
 ## 🧩 Architecture Notes
-- Event-driven processing (no blocking REST loops)
-- Minimal latency between price update and analysis
 - Designed to be easily extended for:
-- Automated trading
-- Database storage
-- Futures market support
+  - Automated trading
+  - Database storage
+  - Futures market support
 
 ---
 
 ## ⚠️ Disclaimer
 This project is intended for educational and research purposes only.
 It does not provide financial advice or guarantee profitability.
+
+---
+
+## 💬 Freelance Note
+
+This project represents the type of tools I build for freelance clients.
+Similar systems can be customized based on specific requirements.
 
 ---
 
