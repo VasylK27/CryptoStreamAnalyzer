@@ -6,6 +6,23 @@ The project focuses on **low-latency data processing**, **WebSocket streaming**,
 
 ---
 
+## 💼 Why This Project Matters (For Clients)
+
+This tool demonstrates my ability to:
+- Build low-latency trading analytics systems
+- Work with real-time WebSocket data
+- Detect market inefficiencies programmatically
+- Design extensible architectures for trading bots
+- Create desktop monitoring dashboards
+
+Possible client use cases:
+- Custom arbitrage scanners
+- Signal generators for trading bots
+- Market monitoring tools
+- Research tools for quantitative strategies
+
+---
+
 ## 🧠 Project Overview
 
 Modern crypto markets often exhibit short-lived price inefficiencies between related trading pairs (e.g. the same asset quoted in different stablecoins).
