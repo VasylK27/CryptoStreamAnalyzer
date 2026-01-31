@@ -10,7 +10,7 @@ The project focuses on **low-latency data processing**, **WebSocket streaming**,
 
 This project demonstrates how I build:
 - Real-time crypto market monitoring tools
-- Arbitrage and price anomaly scanners
+- Price anomaly and arbitrage scanners
 - Low-latency WebSocket-based systems
 - Extendable analytics tools for trading research
 
@@ -19,23 +19,6 @@ Typical client use cases:
 - Arbitrage opportunity research
 - Custom alert systems
 - Market microstructure analysis
-
----
-
-## 💼 Why This Project Matters (For Clients)
-
-This tool demonstrates my ability to:
-- Build low-latency trading analytics systems
-- Work with real-time WebSocket data
-- Detect market inefficiencies programmatically
-- Design extensible architectures for trading bots
-- Create desktop monitoring dashboards
-
-Possible client use cases:
-- Custom arbitrage scanners
-- Signal generators for trading bots
-- Market monitoring tools
-- Research tools for quantitative strategies
 
 ---
 
